@@ -1,0 +1,22 @@
+{
+  "name": "19-FizzBuzz",
+  "version": "0.0.1",
+  "description": "A code kata example based using FizzBuzz",
+  "main": "",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register -R spec test-*.coffee",
+    "lint": "coffeelint *.coffee"
+  },
+  "repository": { 
+    "type" : "git",
+    "url" : "http://github.com/sleepyfox/Code-Dojo-19.git"
+  },
+  "author": "@sleepyfox",
+  "license": "see LICENSE file",
+  "devDependencies": {
+    "coffee-script": "~1.7.0",
+    "mocha": "~1.17.0",
+    "chai": "~1.9.0",
+    "coffeelint": "~1.0.0"
+  }
+}
