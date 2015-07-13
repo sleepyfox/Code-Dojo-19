@@ -9,15 +9,16 @@
     "lint": "coffeelint *.coffee"
   },
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/sleepyfox/Code-Dojo-19.git"
+    "type": "git",
+    "url": "http://github.com/sleepyfox/Code-Dojo-19.git"
   },
   "author": "@sleepyfox",
   "license": "see LICENSE file",
-  "devDependencies": {
-    "coffee-script": "~1",
-    "mocha": "~1",
-    "chai": "~1",
-    "coffeelint": "~1"
+  "devDependencies": {},
+  "dependencies": {
+    "chai": "^3.0.0",
+    "coffee-script": "^1.9.3",
+    "coffeelint": "^1.10.1",
+    "mocha": "^2.2.5"
   }
 }
